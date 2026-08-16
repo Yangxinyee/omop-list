@@ -29,6 +29,7 @@ Tools for transforming data into OMOP CDM:
 - [Usagi](https://github.com/OHDSI/Usagi) - Vocabulary mapping tool
 - [Carrot Mapper](https://github.com/Health-Informatics-UoN/carrot-mapper) - Community mapping tool
 - [ATLAS](https://github.com/OHDSI/Atlas) - Web-based application for cohort definition and analysis
+- [Atlas3](https://github.com/OHDSI/Atlas3) - Updated reimplementation of OHDSI ATLAS for cohort definition and analysis
 - [Broadsea](https://github.com/OHDSI/Broadsea) - Deploys the core OHDSI stack
 - [OMOP2OBO](https://github.com/callahantiff/OMOP2OBO) - Mapping to Open Biomedical Ontologies
 - [Bouzyges](https://github.com/OHDSI/Bouzyges) - Semantic mapping with LLM
@@ -40,6 +41,8 @@ Tools for transforming data into OMOP CDM:
 - [DICOM2OMOP](https://github.com/paulnagy/DICOM2OMOP) - DICOM mapping to OMOP
 - [ROMOPMappingTools](https://github.com/FinOMOP/ROMOPMappingTools) - Functions to validate, update, and summarise Usagi mapping files
 - [FinOMOP_mappings](https://github.com/FinOMOP/FinOMOP_mappings) - Mapping of Finnish medical vocabularies
+- [ready42](https://github.com/Centre-for-AI-Innovation/ready42) - Tools for data curation and mapping into OMOP CDM
+
 
 #### Transformation
 
@@ -49,6 +52,11 @@ Tools for transforming data into OMOP CDM:
 - [oxford-omop-data-mapper](https://github.com/answerdigital/oxford-omop-data-mapper) - Transformation of NHS datasets
 - [i2o-transform](https://github.com/i2b2-omop/i2o-transform) - PCORnet to OMOP
 - [fhir-omop-ig](https://github.com/HL7/fhir-omop-ig) - FHIR implementation
+- [MEDS](https://github.com/Medical-Event-Data-Standard/meds) - Schema for medical event streams, used for EHR foundation models
+- [meds_etl](https://github.com/Medical-Event-Data-Standard/meds_etl) - ETLs to MEDS, including OMOP v5
+- [OMOP_MEDS](https://github.com/rvandewater/OMOP_MEDS) - OMOP to MEDS using MEDS-Transforms
+- [omop2meds](https://github.com/na399/omop2meds) - Fast OMOP to MEDS conversion in DuckDB
+
 
 #### Validation
 
@@ -68,6 +76,7 @@ Tools for transforming data into OMOP CDM:
 - [IMI_SOPHIA_DMS_OMOP](https://github.com/MaastrichtU-BISS/IMI_SOPHIA_DMS_OMOP) - Maastricht ETL
 - [ETL-Synthea](https://github.com/OHDSI/ETL-Synthea) - Synthea to OMOP ETL
 - [FinnGen/ETL](https://github.com/FINNGEN/ETL) - FinnGen ETL
+- [mimic-iv-dbt](https://github.com/saywurdson/mimic-iv-dbt) - MIMIC-IV to CDM 5.4 with DuckDB and dbt
 
 ### 📊 Analytics & Research
 
@@ -88,6 +97,8 @@ Tools for analyzing and visualizing OMOP data:
 - [recruit](https://github.com/miracum/recruit) - Clinical trial recruitment system with FHIR + OMOP
 - [Strategus](https://github.com/OHDSI/Strategus) - Coordinating / executing analytics
 - [CohortConstructor](https://github.com/OHDSI/CohortConstructor/) - Create study cohorts
+- [Picard](https://github.com/OHDSI/Picard) - RWE pipelining tool favouring OHDSI tools
+- [OPAL](https://github.com/DorianGrousset/OPAL) - Data quality, cohort building, and concept exploration platform
 
 ### 🤖 Machine Learning & AI
 
@@ -101,6 +112,10 @@ AI/ML tools built for OMOP data:
 - [omcp](https://github.com/fastomop/omcp) - MCP server for OMOP
 - [omop_mcp](https://github.com/OHNLP/omop_mcp) - MCP server for OMOP
 - [onto-llm-mapping](https://github.com/cns-iu/onto-llm-mapping) - Ontology mapping with LLM + RAG
+- [Pythia](https://github.com/OHDSI/Pythia) - AI cohort-design advisor for ATLAS 3.0
+- [StudyAgent](https://github.com/OHDSI/StudyAgent) - Agentic study execution
+- [trex](https://github.com/OHDSI/trex) - Supabase-compatible backend with an embedded analytical engine and agent runtime
+
 
 ### 🛠️ Development & Infrastructure
 
@@ -120,6 +135,11 @@ Developer tools and infrastructure components:
 - [dzd-omop-cdm-python-models](https://github.com/DZD-eV-Diabetes-Research/dzd-omop-cdm-python-models) - Python data class lib for OMOP CDM
 - [OMOPCommonDataModel.jl](https://github.com/JuliaHealth/OMOPCommonDataModel.jl) - Julia implementation of the OMOP CDM
 - [pyomop](https://github.com/dermatologist/pyomop) - Useful OMOP "swiss army knife" in Python
+- [PatientGenerator](https://github.com/OHDSI/PatientGenerator) - Synthetic data generator for OMOP
+- [Circepy](https://github.com/OHDSI/circepy) - Python implementation of CIRCE-BE
+- [GIS](https://github.com/OHDSI/GIS) - Geospatial and exposome data in the CDM
+- [gaiaDB](https://github.com/OHDSI/gaiaDB) - Staging database and transformation recipes for place-based datasets
+
 
 ### Vocabs
 
@@ -145,6 +165,7 @@ Developer tools and infrastructure components:
 - [OHDSI Book 2nd Edition](https://github.com/OHDSI/BookOfOhdsi-2ndEdition)
 - [Tidy R programming with the OMOP Common Data Model](https://github.com/OHDSI/Tidy-R-programming-with-OMOP)
 - [HDRUK: The OMOP Common Data Model for Federated Analytics of Health Data](https://hdruklearn.org/courses/course-v1:HDRUK+OMOP001+2026)
+- [linkml-omop-tutorial](https://github.com/alabarga/linkml-omop-tutorial) - LinkML schemas for OMOP
 
 ## Contributing
 
